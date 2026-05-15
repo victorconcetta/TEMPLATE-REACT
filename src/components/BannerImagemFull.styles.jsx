@@ -21,7 +21,7 @@ export const Legenda = styled.div`
     width: 100%;
     padding: 2px 50px;
     color: white;
-    font-size: 3dvw;
+font-size: clamp(1rem, 2.2dvw, 40px);
     font-weight: bold;
     text-align: right;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);

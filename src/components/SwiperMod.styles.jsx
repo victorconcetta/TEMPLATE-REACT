@@ -49,19 +49,13 @@ export const Container = styled.div`
 `;
 
 export const SlideBox = styled.div`
-  height: 500px;  /* --- mudar para auto para imagem __*/
-
-  background: #444;
-
-  color: white;
-
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  font-size: 40px;
-
-   @media (max-width: 900px) {
-     height: 250px;
+    width: 100%;
+    aspect-ratio: 2 / 1;
+    background: #444;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    overflow: hidden;
 `;

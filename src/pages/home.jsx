@@ -9,7 +9,15 @@ import Banner3Quadrados from '../components/Banner3Quadrados.jsx'
 function Home() {
   return (
     <>
-      <SwiperMod />
+<SwiperMod
+  imagens={[
+    'https://placehold.co/800x400/aaaaaa/ffffff?text=Slide+1',
+    'https://placehold.co/800x400/999999/ffffff?text=Slide+2',
+    'https://placehold.co/800x400/888888/ffffff?text=Slide+3',
+    'https://placehold.co/800x400/777777/ffffff?text=Slide+4',
+    'https://placehold.co/800x400/666666/ffffff?text=Slide+5',
+  ]}
+/>
 <div className="Subpagina">
   <S.Container>
 
@@ -20,7 +28,7 @@ function Home() {
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><br /> 
   </DivComum >
 <br />
-  <BannerFull titulo="Contato">
+  <BannerFull titulo="BANNER FULL">
 <p>EXMEPLO DE CARD DE INFORMACAO.</p><br /> 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><br /> 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p><br /> 

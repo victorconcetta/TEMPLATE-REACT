@@ -25,7 +25,7 @@ export const Titulo = styled.h2`
   background: var(--principaldark);
   text-align: center;
   width: 100%;
-  padding-bottom: 10px;
+  padding: 20px;
   height: auto;
   overflow: hidden;
 `;
