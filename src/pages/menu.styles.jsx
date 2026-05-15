@@ -9,7 +9,7 @@ align-items: center;
   width: 100%;
   height: 70px;
   background: var(--principal);
-  border-radius: 0 0 30px 0;
+
 
   @media (max-width: 768px) {
   justify-content: space-between;
@@ -24,6 +24,10 @@ justify-content: center;
   width: 20%;
   min-width: 200px;
  border-radius: 0px 30px 0px 0px;
+
+  @media (max-width: 768px) {
+  min-width: 150px;
+  }
 
 p {
   margin: 0px;
