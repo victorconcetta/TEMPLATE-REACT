@@ -8,12 +8,32 @@ align-items: center;
   margin: 0px;
   width: 100%;
   height: 70px;
-  background: rgb(107, 153, 184);
+  background: var(--principal);
+  border-radius: 0 0 30px 0;
 
   @media (max-width: 768px) {
-  justify-content: flex-end;
+  justify-content: space-between;
   }
 `
+export const DivLogo = styled.div`
+display: flex;
+align-items: center;
+justify-content: center;
+  background: var(--bg);
+  height: 100%;
+  width: 20%;
+  min-width: 200px;
+ border-radius: 0px 30px 0px 0px;
+
+p {
+  margin: 0px;
+  font-weight: bold;
+}
+
+
+
+`
+
 export const UlMenu = styled.ul`
   display: flex;
   justify-content: center;
@@ -45,6 +65,7 @@ export const LiMenu = styled.li`
   height: 100%;
   font-size: 1.5rem;
   transition: 0.3s;
+  
 
 
   a {

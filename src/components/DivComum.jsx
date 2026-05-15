@@ -1,12 +1,12 @@
 import * as S from './DivComum.styles.jsx'
 
-function DivComum({ children, titulo }) {
+function DivComum({ children, titulo, className }) {
   return (
-    <S.Container>
+      <S.Container className={className}>
       <S.Titulo>{titulo}</S.Titulo>
-      <S.DivComum>
+      <S.Content>
         {children}
-      </S.DivComum>
+      </S.Content>
     </S.Container>
   )
 }

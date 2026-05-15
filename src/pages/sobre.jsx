@@ -1,15 +1,21 @@
 
 import * as S from './home.styles.jsx'
 import DivComum from '../components/DivComum.jsx'
+import styled from 'styled-components'
+
+
+const DivComumFull = styled(DivComum)`
+  width: 95%;
+`
 
 function Sobre() {
   return (
 <div className="Subpagina">
   <S.Container>
     
- <DivComum titulo="Sobre">
+<DivComumFull titulo="Sobre">
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-  </DivComum >
+  </DivComumFull >
 
   </S.Container>
   </div>

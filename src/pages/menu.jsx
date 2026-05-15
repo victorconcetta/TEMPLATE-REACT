@@ -8,6 +8,7 @@ function MenuPrincipal() {
   return (
     <>
       <S.Container>
+        <S.DivLogo><p>LOGO</p></S.DivLogo>
         <S.UlMenu>
           <S.LiMenu><Link to="/">Home</Link></S.LiMenu>
            <S.LinhaVer />
