@@ -60,8 +60,11 @@ h1 {
  @media (max-width: 768px) {
     
    p {
-    font-size: 18px;
+    font-size: 18px; 
    } 
+   h1 { 
+    font-size: 21px; 
+   }
   }
 `
 
