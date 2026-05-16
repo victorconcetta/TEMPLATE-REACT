@@ -16,7 +16,7 @@ export const ContainerSwiper = styled.div`
 padding-top: 140px;
 
   @media (max-width: 900px) {
-padding-top: 80px;
+padding-top: 70px;
   }
 `
 export const DivCentro = styled.div`
