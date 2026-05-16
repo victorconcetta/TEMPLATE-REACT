@@ -34,10 +34,12 @@ export const DivLogo = styled.div`
 
   @media (max-width: 900px) {
     min-width: 120px;
-    width: auto;
+    width: 150px;
+   
 
     img {
       height: 80px;
+      width: 100%;
     }
   }
 `
