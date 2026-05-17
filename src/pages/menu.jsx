@@ -11,10 +11,10 @@ function MenuPrincipal() {
 
   const mostrarSub = subProdutos || location.pathname === '/sobre'
 
-  function fecharMenu() {
-    setAberto(false)
-  }
-
+function fecharMenu() {
+  setAberto(false)
+  window.scrollTo({ top: 0, behavior: 'smooth' })  // ← volta pro topo
+}
   return (
     <>
       <S.Container>
