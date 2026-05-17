@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import ofertas from '../assets/img/ofertas.png'
-import bg from '../assets/img/bg.png'
+
 
 export const Container = styled.div`
 display: flex;

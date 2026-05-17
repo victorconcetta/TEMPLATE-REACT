@@ -6,8 +6,8 @@ function Footer() {
     <>
       <S.Container>
       
-        <h1>QUITANDA SEU ZÉ</h1>
-        <p>o Frescor do Campo para Você</p>
+        <h1>TITULO OU LOGO</h1>
+        <p>TEMPLATE DE VICTOR CONCETTA</p>
         <p>Recuse imitações</p>
       </S.Container>
 

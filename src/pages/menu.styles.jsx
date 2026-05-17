@@ -93,7 +93,7 @@ export const LiMenu = styled.li`
 
 `
 
-export const SubProdutos = styled.div`
+export const SubMenu = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -112,10 +112,14 @@ export const SubProdutos = styled.div`
     overflow-x: auto;
     scrollbar-width: none; 
     &::-webkit-scrollbar { display: none; }
+        display: none;
+
   }
+
+
 `
 
-export const ListaProdutos = styled.ul`
+export const ListaSubMenu = styled.ul`
   display: flex;
   list-style: none;
   align-items: center;
@@ -124,7 +128,7 @@ export const ListaProdutos = styled.ul`
   margin: 0px;
   padding: 0px 50px;
 
-    @media (max-width: 1200px) {
+  @media (max-width: 1200px) {
     padding: 0px 20px;
     gap: 10px;
   }
@@ -137,7 +141,7 @@ export const ListaProdutos = styled.ul`
   }
 `
 
-export const ListaProdutosLi = styled.li`
+export const ListaSubMenuLi = styled.li`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -146,24 +150,22 @@ export const ListaProdutosLi = styled.li`
   font-size: 24px;
   font-weight: 500;
   transition: 0.5s;
-  white-space: nowrap;  /* ← evita quebra de texto */
+  white-space: nowrap;
 
   &:hover {
     transform: scale(1.05);
   }
-   @media (max-width: 1200px) {
+
+  @media (max-width: 1200px) {
     padding: 10px 10px;
-        font-size: 16px;
-
+    font-size: 16px;
   }
-
 
   @media (max-width: 900px) {
     font-size: 16px;
     padding: 8px 10px;
   }
 `
-
 
 export const Hamburger = styled.div`
   display: flex;

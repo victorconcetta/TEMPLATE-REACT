@@ -1,13 +1,13 @@
 :root {
   /*---------cores globais------------*/
 
-    --principal: rgb(176, 184, 107);
+    --principal: rgb(145, 145, 145);
     --principallight: color-mix(
     in srgb,
     var(--principal) 50%,  /*-------*/
     rgb(255, 255, 255));
     --principaldark: color-mix(
-    in srgb,
+    in srgb,npx depcheck
     var(--principal) 90%,  /*-------*/
     black);
     --principaldarker: color-mix(
