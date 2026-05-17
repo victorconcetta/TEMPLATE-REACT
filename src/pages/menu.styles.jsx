@@ -221,8 +221,8 @@ export const LiMenuMobile = styled.li`
   align-items: center;
   flex: 1;
   height: 100%;
-  font-size: 1.5rem;
-  padding: 10px;
+  font-size: 1.3rem;
+  padding: 8px;
   transition: 0.3s;
 
 

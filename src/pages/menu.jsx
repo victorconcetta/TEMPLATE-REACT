@@ -1,13 +1,19 @@
 import * as S from './menu.styles.jsx'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import logo from "../assets/img/logo.png"
+
 
 function MenuPrincipal() {
   const [aberto, setAberto] = useState(false)
   const [subProdutos, setSubProdutos] = useState(false)
   const location = useLocation()
   const [subMobile, setSubMobile] = useState(false)
+
+useEffect(() => {
+  document.body.style.overflow = aberto ? 'hidden' : ''
+  return () => { document.body.style.overflow = '' }
+}, [aberto])
 
   const mostrarSub = subProdutos || location.pathname === '/sobre'
 
